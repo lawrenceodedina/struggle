@@ -23,7 +23,7 @@ pipeline {
             steps {
                 script {
                     docker.withRegistry('', 'dockerid'){
-                        def app = docker.build('femiodedina/ng:${env.BUILD_NUMBER}')
+                        def app = docker.build("femiodedina/ng:${env.BUILD_NUMBER}")
                         app.push()
                         app.push("latest")
                     }
