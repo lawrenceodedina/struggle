@@ -12,7 +12,7 @@
 
   <artifactId>ng</artifactId>
   <packaging>war</packaging>
-  <name>ng/name>
+  <name>ng</name>
   <description>ng.</description>
 
   <build>
